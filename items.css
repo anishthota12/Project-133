@@ -1,0 +1,56 @@
+body {
+    background-image: linear-gradient(to top left, hsl(221, 97%, 23%), hsl(221, 97%, 75%));
+    text-align: center;
+}
+
+h1 {
+    font-family: monospace;
+    font-size: 64px;
+    color: black;
+}
+
+#backButton {
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    width: 50px;
+    height: 30px;
+    background: none;
+    border: none;
+    color: black;
+    font-size: 32px;
+}
+
+#shoeStatus,
+#shoesDetected,
+#mugStatus,
+#mugsDetected,
+#scissorStatus,
+#scissorsDetected,
+#keyboardStatus,
+#keyboardsDetected,
+#headphoneStatus,
+#headphonesDetected {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: hsl(112, 69%, 53%);
+    border-radius: 100vw;
+    width: 25%;
+    margin: auto;
+    display: inline;
+    padding: 3px 10px;
+}
+
+#shoesDetected,
+#mugsDetected,
+#scissorsDetected,
+#keyboardsDetected,
+#headphonesDetected {
+    font-size: 125%;
+    height: 26.393px;
+}
+
+canvas {
+    border: 7px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px hsl(0, 0%, 5%);
+}
